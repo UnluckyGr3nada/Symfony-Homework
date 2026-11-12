@@ -1,0 +1,29 @@
+Exercice 1 – Objets connectés :
+
+Q1. Listez les objets connectés et les systèmes informatiques sollicités lorsqu’un visiteur du festival utilisera son badge pour effectuer un paiement :
+
+– Badge avec puce
+
+– Smartphone de l'employé équipé d'un lecteur pour scanner le badge.
+
+– Le serveur ou les serveurs pour le festival.
+
+– Site web du festival
+
+Q2. Réalisez un schéma ou une liste des flux de transfert d’informations entre ces différents objets et systèmes. Il n’est pas nécessaire d’indiquer les protocoles. 
+
+de communication ou les langages utilisés, indiquez simplement les flux avec des flèches et précisez quelle information ils transmettent :
+
+Badge --> Smartphone (transmission de l'identifiant unique au smartphone).
+
+Smartphone --> Serveur (transmission de l'identifiant unique, montant de transaction au serveur).
+
+Serveur --> Smartphone (confirmation du paiement et solde restant ou message d'erreur).
+
+Q3. Quels protocoles de communication vous semblent les plus appropriés pour ce projet ? Justifiez chacun de vos choix avec une phrase :
+
+– Pour la communication entre les badges et les smartphones, ça va être la communication à distance ou RFID.
+
+– Pour la communication entre les smartphones et serveurs, ça va être du HTTP/HTTPS par connexion internet, par wifi ou 4G/5G.
+
+ 
